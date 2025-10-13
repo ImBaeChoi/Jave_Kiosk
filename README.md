@@ -1,4 +1,4 @@
-장바구니 메인화면
+장바구니 메인화면<br>
 <img width="313" height="234" alt="image" src="https://github.com/user-attachments/assets/ca88647e-9067-4d31-b9c0-2db5cb1e7582" />
 
 메뉴 추가

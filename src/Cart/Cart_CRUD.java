@@ -3,7 +3,7 @@ package Cart;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Menu_CRUD {
+public class Cart_CRUD {
     protected List<CartItem> items = new ArrayList<>();
 
     // 중복 시 수량 증가

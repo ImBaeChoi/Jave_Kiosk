@@ -1,6 +1,6 @@
 package Cart;
 
-public class Price_Calculation extends Menu_CRUD {
+public class Price_Calculation extends Cart_CRUD {
     public int getTotalPrice() {
         int total = 0;
         for (CartItem item : items) {

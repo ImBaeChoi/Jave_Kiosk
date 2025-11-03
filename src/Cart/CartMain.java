@@ -9,13 +9,13 @@ public class CartMain {
         Scanner sc = new Scanner(System.in);
 
         // 가격 계산 객체 생성
-        Price_Calculation priceCalc = new Price_Calculation();
+        Price_Calculation pc = new Price_Calculation();
 
         // 수량 계산 객체 생성
-        Quantity_Calculation qtyCalc = new Quantity_Calculation();
+        Quantity_Calculation qc = new Quantity_Calculation();
 
         // 두 객체가 같은 장바구니 리스트를 공유하도록 설정
-        qtyCalc.items = priceCalc.items;
+        qc.items = pc.items;
 
         // 프로그램 메인 루프
         while (true) {
@@ -42,7 +42,7 @@ public class CartMain {
                     int price = sc.nextInt();
                     System.out.print("수량: ");
                     int qty = sc.nextInt();
-                    priceCalc.addItem(name, price, qty); // 장바구니에 추가
+                    pc.addItem(name, price, qty); // 장바구니에 추가
                     break;
 
                 case 2: // 메뉴 수정
@@ -50,25 +50,25 @@ public class CartMain {
                     String uName = sc.nextLine();
                     System.out.print("새 수량: ");
                     int newQty = sc.nextInt();
-                    priceCalc.updateItem(uName, newQty); // 수량 변경
+                    pc.updateItem(uName, newQty); // 수량 변경
                     break;
 
                 case 3: // 메뉴 삭제
                     System.out.print("삭제할 메뉴 이름: ");
                     String dName = sc.nextLine();
-                    priceCalc.removeItem(dName); // 장바구니에서 삭제
+                    pc.removeItem(dName); // 장바구니에서 삭제
                     break;
 
                 case 4: // 장바구니 출력
-                    priceCalc.showCart(); // 현재 장바구니 내용 출력
+                    pc.showCart(); // 현재 장바구니 내용 출력
                     break;
 
                 case 5: // 총 금액 확인
-                    System.out.println("총 금액: " + priceCalc.getTotalPrice() + "원");
+                    System.out.println("총 금액: " + pc.getTotalPrice() + "원");
                     break;
 
                 case 6: // 총 수량 확인
-                    System.out.println("총 수량: " + qtyCalc.getTotalQuantity() + "개");
+                    System.out.println("총 수량: " + qc.getTotalQuantity() + "개");
                     break;
 
                 case 0: // 프로그램 종료

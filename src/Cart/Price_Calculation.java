@@ -9,8 +9,8 @@ public class Price_Calculation extends Cart_CRUD {
         int total = 0; // 총 금액을 저장할 변수 초기화
 
         // 장바구니의 모든 아이템을 순회
-        for (int i = 0; i < items.size(); i++) {
-            CartItem item = items.get(i);
+        for (int i = 0; i < cartItems.size(); i++) {
+            CartItem item = cartItems.get(i);
             // 각 아이템의 총 가격(단가 × 수량)을 누적
             total += item.getTotalPrice();
         }

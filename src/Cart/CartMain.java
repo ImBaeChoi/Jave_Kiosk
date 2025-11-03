@@ -15,7 +15,7 @@ public class CartMain {
         Quantity_Calculation qc = new Quantity_Calculation();
 
         // 두 객체가 같은 장바구니 리스트를 공유하도록 설정
-        qc.items = pc.items;
+        qc.cartItems = pc.cartItems;
 
         // 프로그램 메인 루프
         while (true) {

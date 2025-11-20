@@ -3,7 +3,7 @@ package Cart;
 import java.util.ArrayList;
 import java.util.List;
 
-//장바구니의 기본 CRUD(Create, Read, Update, Delete) 기능을 제공하는 클래스
+//장바구니의 기본 기능을 제공하는 클래스
 public class Cart_CRUD {
     // 장바구니 아이템들을 저장하는 리스트
     protected List<CartItem> cartItems = new ArrayList<>();
@@ -59,7 +59,6 @@ public class Cart_CRUD {
             return;
         }
 
-        // 장바구니 헤더 출력
         System.out.println("===== 장바구니 =====");
 
         // 모든 아이템을 순회하면서 출력

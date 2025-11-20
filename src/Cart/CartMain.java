@@ -8,18 +8,14 @@ public class CartMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 가격 계산 객체 생성
         Price_Calculation pc = new Price_Calculation();
 
-        // 수량 계산 객체 생성
         Quantity_Calculation qc = new Quantity_Calculation();
 
         // 두 객체가 같은 장바구니 리스트를 공유하도록 설정
         qc.cartItems = pc.cartItems;
 
-        // 프로그램 메인 루프
         while (true) {
-            // 메뉴 출력
             System.out.println("\n=== 커피 키오스크 장바구니 ===");
             System.out.println("1. 메뉴 추가");
             System.out.println("2. 메뉴 수정");
@@ -30,10 +26,9 @@ public class CartMain {
             System.out.println("0. 종료");
             System.out.print("선택: ");
 
-            int choice = sc.nextInt(); // 사용자 선택 입력받기
+            int choice = sc.nextInt();
             sc.nextLine();
 
-            // 사용자 선택에 따라 기능 실행
             switch (choice) {
                 case 1: // 메뉴 추가
                     System.out.print("메뉴 이름: ");

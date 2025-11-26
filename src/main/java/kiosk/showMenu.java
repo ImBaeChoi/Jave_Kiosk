@@ -16,6 +16,7 @@ public class showMenu {
     public List<String> getCategories() {
         return menuList.stream()
                 .map(menuItem::getCategory)
+                .distinct()
                 .collect(Collectors.toList());
     }
 

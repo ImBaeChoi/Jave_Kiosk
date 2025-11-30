@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
+import kiosk.payment.PaymentResult;
+import kiosk.payment.PaymentScreen;
+
 public class kioskMain {
 
     private static final String MENU_JSON_PATH = "src/main/resources/menuData.json";
@@ -50,6 +53,23 @@ public class kioskMain {
 
                 if (selection != null) {
                     show.printSelection(selection);
+                    // 찬희가 넣은 결제 부분
+                    // 선택한 항목의 최종 가격으로 결제 진행
+                    PaymentScreen payment = new PaymentScreen(sc);
+                    PaymentResult payResult = payment.show(selection.getPrice());
+
+                    // 결제 결과 출력 및 분기
+                    if (!payResult.success) {
+                        System.out.println("[결제 실패] " + payResult.message);
+                        // 실패 시 처리 로직이 있으면 여기에 작성
+                    } else {
+                        System.out.println("[결제 성공] " + payResult.message);
+                        System.out.println("지불금액: " + payResult.paid + "원");
+                        System.out.println("거스름돈: " + payResult.change + "원");
+                        // 성공 시 영수증 출력/주문 확정 로직이 있으면 여기에 작성
+                        // 여기까지 찬희가 넣었음
+                    }
+
                 } else {
                     System.out.println("선택이 취소되었습니다.\n");
                 }

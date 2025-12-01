@@ -1,0 +1,722 @@
+[
+  {
+    "menuCode": "SB001",
+    "menuName": "카페 아메리카노",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 4700
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 4,700",
+      "Grande price \u003d 4,900",
+      "Venti price \u003d 5,100"
+    ]
+  },
+  {
+    "menuCode": "SB002",
+    "menuName": "카페 라떼",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5200
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,200",
+      "Grande price \u003d 5,400",
+      "Venti price \u003d 5,600"
+    ]
+  },
+  {
+    "menuCode": "SB003",
+    "menuName": "카푸치노",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5200
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,200",
+      "Grande price \u003d 5,400",
+      "Venti price \u003d 5,600"
+    ]
+  },
+  {
+    "menuCode": "SB004",
+    "menuName": "카라멜 마키아또",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB005",
+    "menuName": "카페 모카",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5700
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,700",
+      "Grande price \u003d 5,900",
+      "Venti price \u003d 6,100"
+    ]
+  },
+  {
+    "menuCode": "SB006",
+    "menuName": "화이트 초콜릿 모카",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB007",
+    "menuName": "바닐라 플랫 화이트",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB008",
+    "menuName": "스타벅스 돌체 라떼",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB009",
+    "menuName": "시그니처 핫 초콜릿",
+    "category": "기타 제조 음료",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5700
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,700",
+      "Grande price \u003d 5,900",
+      "Venti price \u003d 6,100"
+    ]
+  },
+  {
+    "menuCode": "SB010",
+    "menuName": "콜드 브루",
+    "category": "콜드 브루",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5000
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,000",
+      "Grande price \u003d 5,200",
+      "Venti price \u003d 5,400"
+    ]
+  },
+  {
+    "menuCode": "SB011",
+    "menuName": "바닐라 크림 콜드 브루",
+    "category": "콜드 브루",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6000
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,000",
+      "Grande price \u003d 6,200",
+      "Venti price \u003d 6,400"
+    ]
+  },
+  {
+    "menuCode": "SB012",
+    "menuName": "돌체 콜드 브루",
+    "category": "콜드 브루",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6000
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,000",
+      "Grande price \u003d 6,200",
+      "Venti price \u003d 6,400"
+    ]
+  },
+  {
+    "menuCode": "SB013",
+    "menuName": "오트 콜드 브루",
+    "category": "콜드 브루",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6200
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,200",
+      "Grande price \u003d 6,400",
+      "Venti price \u003d 6,600"
+    ]
+  },
+  {
+    "menuCode": "SB014",
+    "menuName": "자몽 허니 블랙 티",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5900
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,900",
+      "Grande price \u003d 6,100",
+      "Venti price \u003d 6,300"
+    ]
+  },
+  {
+    "menuCode": "SB015",
+    "menuName": "스타벅스 클래식 밀크 티",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB016",
+    "menuName": "유자 민트 티",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB017",
+    "menuName": "복숭아 아이스 티",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB018",
+    "menuName": "얼 그레이",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,100",
+      "Grande price \u003d 5,300",
+      "Venti price \u003d 5,500"
+    ]
+  },
+  {
+    "menuCode": "SB019",
+    "menuName": "잉글리쉬 브렉퍼스트",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,100",
+      "Grande price \u003d 5,300",
+      "Venti price \u003d 5,500"
+    ]
+  },
+  {
+    "menuCode": "SB020",
+    "menuName": "히비스커스 블렌드",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,100",
+      "Grande price \u003d 5,300",
+      "Venti price \u003d 5,500"
+    ]
+  },
+  {
+    "menuCode": "SB021",
+    "menuName": "유스베리",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,100",
+      "Grande price \u003d 5,300",
+      "Venti price \u003d 5,500"
+    ]
+  },
+  {
+    "menuCode": "SB022",
+    "menuName": "민트 블렌드",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,100",
+      "Grande price \u003d 5,300",
+      "Venti price \u003d 5,500"
+    ]
+  },
+  {
+    "menuCode": "SB023",
+    "menuName": "제주 말차 라떼",
+    "category": "티바나",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6300
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,300",
+      "Grande price \u003d 6,500",
+      "Venti price \u003d 6,700"
+    ]
+  },
+  {
+    "menuCode": "SB024",
+    "menuName": "자바 칩 프라푸치노",
+    "category": "프라푸치노",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6300
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,300",
+      "Grande price \u003d 6,500",
+      "Venti price \u003d 6,700"
+    ]
+  },
+  {
+    "menuCode": "SB025",
+    "menuName": "카라멜 프라푸치노",
+    "category": "프라푸치노",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB026",
+    "menuName": "모카 프라푸치노",
+    "category": "프라푸치노",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB027",
+    "menuName": "그린 티 크림 프라푸치노",
+    "category": "프라푸치노",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6300
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,300",
+      "Grande price \u003d 6,500",
+      "Venti price \u003d 6,700"
+    ]
+  },
+  {
+    "menuCode": "SB028",
+    "menuName": "더블 초콜릿 칩 크림 프라푸치노",
+    "category": "프라푸치노",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6300
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,300",
+      "Grande price \u003d 6,500",
+      "Venti price \u003d 6,700"
+    ]
+  },
+  {
+    "menuCode": "SB029",
+    "menuName": "딸기 크림 프라푸치노",
+    "category": "프라푸치노",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 6100
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 6,100",
+      "Grande price \u003d 6,300",
+      "Venti price \u003d 6,500"
+    ]
+  },
+  {
+    "menuCode": "SB030",
+    "menuName": "스타벅스 더블 샷",
+    "category": "에스프레소",
+    "sizes": [
+      {
+        "size": [
+          "Tall",
+          "Grande",
+          "Venti"
+        ],
+        "hot_iced": [
+          "Hot",
+          "Iced"
+        ],
+        "price_krw": 5300
+      }
+    ],
+    "priceNote": [
+      "Tall price \u003d 5,300",
+      "Grande price \u003d 5,500",
+      "Venti price \u003d 5,700"
+    ]
+  }
+]
